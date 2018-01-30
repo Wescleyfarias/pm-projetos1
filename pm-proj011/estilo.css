@@ -1,0 +1,93 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container{
+    text-align: center;
+}
+.card label{
+    display: block;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswaldo', sans-serif;
+    text-align: left;
+}
+.card.altura{
+    background-color: #3498db;
+}
+.card.peso{
+    background-color: #34495e;
+}
+button{
+    margin-top: 15px;
+    padding: 25px;
+    width: 90%;
+    background-color: #27ae60;
+    box-shadow: 0 6px 0 #245b3b;
+    border-radius: 4px;
+    border: none;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+}
+input{
+    width: 60%;
+    height: 148px;
+    border: none;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+}
+.altura input{
+    background-color: #3498db;
+}
+.peso input{
+    background-color: #34495e;
+}
+.botaoIMC{
+    display: inline-block;
+    width: 350px;
+    
+}
+
+.resultado {
+    text-align: center;
+    widows: 42px;
+    height: 74px;
+    display: inline-flex;
+    padding: 0 0 0 15px;
+    padding-top: 25px;
+}
+.escondido {
+    display: none;
+}
+.voltar{
+    background-image: url(img/seta.png);
+    background-repeat: no-repeat;
+}
+.resultado a span{
+    visibility: hidden;
+}
+.texto{
+    padding-left: 30px
+}
+.resultado p {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Oswaldo', sans-serif;
+    color: #4a4a4a;
+    text-align: left;
+}
+small{
+    font-family: 'Oswaldo' sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #4a4a4a;
+}
