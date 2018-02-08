@@ -27,6 +27,11 @@ li
 .texto{
     text-align: center;
 }
+
+.texto2{
+    text-align: center;
+}
+
 .seta{
     float: right;
     margin: 0 31px 0 0;
@@ -45,4 +50,11 @@ li:hover{
 p{
     padding: 50px 0 0 0;
     margin: 0;
+}
+.texto2{
+    background-color: #4a4a4a;
+}
+
+.texto2:hover{
+    background-color: #000;
 }
