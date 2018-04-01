@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto 013</title>
+  <link rel="stylesheet" href="estilo.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+</head>
+<body class="emptyList">
+
+  <template id="templateItem">
+    <div class="item">
+      <div class="description {{cssClass}}">
+        <label>{{name}} <sup>Min {{minimumStock}}</sup></label>
+        <span class="amountStock">{{amountStock}}</span>
+      </div>
+      <div class="actions hidden">
+        <button class="delete">
+          <img src="img/delete.png">
+        </button>
+        <button class="minus">
+          <img src="img/minus.png">
+        </button>
+        <button class="plus">
+          <img src="img/plus.png">
+        </button>
+      </div>
+    </div>
+  </template>
+ 
+  
+  <div class="topBar">
+    
+    <div class="inputItem">
+   
+      <div class="itemName">
+        <input type="text">
+        <button class="save">
+          <img src="img/save.png">
+        </button>
+      </div>
+
+      <div class="minimumStock hidden">
+        <label>Estoque Mínimo</label>
+
+        <span class="amount">1</span>
+
+        <button class="minus">
+          <img src="img/minus.png">
+        </button>
+
+        <button class="plus">
+          <img src="img/plus.png">
+        </button>
+      </div>
+    
+    </div>
+    
+    <div class="updateList hidden">
+      <button class="cancel">
+        <img src="img/cancel.png">
+      </button>
+      <button class="save">
+        <label>Salve suas alterações</label>
+        <img src="img/save.png">
+      </button>
+    </div>
+    
+  </div>
+   
+  <ul id="GroceryList">
+  </ul>
+    
+  <script src="javascripts/utils.js"></script>
+  <script src="javascripts/GroceryInputItem.js"></script>
+  <script src="javascripts/GroceryUpdateList.js"></script>
+  <script src="javascripts/GroceryItem.js"></script>
+  <script src="javascripts/GroceryList.js"></script>
+  <script src="javascripts/app.js"></script>
+  
+</body>
+</html>
